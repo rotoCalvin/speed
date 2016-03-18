@@ -1,0 +1,37 @@
+<config>
+	
+	<exhibitTimeoutSeconds>45</exhibitTimeoutSeconds>
+	
+	
+	<phrase><phraseText>They say the universe is expanding. That should help with the traffic.</phraseText><video>text1.mp4</video><typeTime>20</typeTime></phrase>
+	<phrase><phraseText>I went to a restaurant that serves 'breakfast at any time'. So I ordered French Toast during the Renaissance.</phraseText><video>text2.mp4</video><typeTime>28</typeTime></phrase>
+	<phrase><phraseText>Someone asked me, if I were stranded on a desert island what book would I bring... “How to Build a Boat”.</phraseText><video>text3.mp4</video><typeTime>30</typeTime></phrase>
+	<phrase><phraseText><![CDATA[I replaced the headlights<br>in my car with strobe lights,<br>so it looks like I'm the<br>only one moving.]]></phraseText><video>text4.mp4</video><typeTime>28</typeTime></phrase>
+	<phrase><phraseText>I went to the museum where they had all the heads and arms from the statues that are in all the other museums.</phraseText><video>text5.mp4</video><typeTime>28</typeTime></phrase>
+	<phrase><phraseText>If you are in a spaceship that is traveling at the speed of light, and you turn on the headlights, does anything happen?</phraseText><video>text6.mp4</video><typeTime>34</typeTime></phrase>
+	
+	<secondsForPlayersToJoinGame>40</secondsForPlayersToJoinGame>
+	<secondsAfterMorseCoderIsDone>40</secondsAfterMorseCoderIsDone>
+	
+	<funFactSeconds>20</funFactSeconds>
+	<funFact>
+		<image>1.png</image>
+		<wideText>false</wideText>
+		<topOffset>-60</topOffset>
+		<text><![CDATA[The modern marathon commemorates the fabled run of a Greek messenger from the battlefield at Marathon to the capital<br>in Athens, a distance of about <span class='bold'>25 miles</span>. After arriving, he announced,<br>"We won!" and supposedly collapsed and died.]]></text>
+	</funFact>
+	<funFact>
+		<image>2.png</image>
+		<wideText>false</wideText>
+		<topOffset>0</topOffset>
+		<text><![CDATA[The way your brain<br>responds to certain words could be used one day to replace passwords.]]></text>
+	</funFact>
+	<funFact>
+		<wideText>true</wideText>
+		<topOffset>0</topOffset>
+		<text><![CDATA[Today, underwater fiber-optic cables connect every corner of the globe for high-speed internet and voice communications. Just one new cable can carry over <span class='bold'>64 terabits of data</span> per second, enough to transfer the entire contents of the Library of Congress<br><span class='bold'>in less than one minute</span>.]]></text>
+	</funFact>
+	
+	
+	
+</config>

@@ -1,0 +1,57 @@
+/* Fix user-agent */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 300;
+  
+  background-color: #3A5CAC;
+  
+  -webkit-font-smoothing: antialiased;
+  
+}
+
+html, input {
+  text-align:center;
+  font-family:
+    "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+
+h1 {
+	
+	font-size: 400%;
+	
+}
+
+
+
+
+#allRacers {
+	
+	font-size: 200%;
+	padding: 10px 2%;
+	
+}
+
+.formButton {
+	
+	font-size: 200%;
+	padding: 10px 2%;
+	
+}
+
+.formLabel {
+	
+	font-size: 200%;
+	padding: 10px 2%;
+	
+}

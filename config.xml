@@ -1,0 +1,7 @@
+<config>
+	<host>localhost</host> <!-- mserver, localhost, localhost-->
+	<environment>production</environment><!-- local, test, production -->
+	<username>speedApp</username>
+	<password>sp33d</password>
+	<dbName>speed</dbName>
+</config>
