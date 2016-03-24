@@ -21,7 +21,7 @@ $(function() {
 	}
 	else if (environment == "production")
 	{
-		hostUri = "http://www.roto.smv.org/speed/";
+		hostUri = "http://roto.smv.org/speed/";
 	}
 	console.log("host URI: ", hostUri);
 	
