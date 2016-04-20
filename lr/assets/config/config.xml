@@ -1,0 +1,35 @@
+<config>
+	
+	<exhibitTimeoutSeconds>20</exhibitTimeoutSeconds>
+	<instructionsSeconds>5</instructionsSeconds>
+	<showResultsSeconds>7</showResultsSeconds>
+	<funFactSeconds>20</funFactSeconds>
+	<noInternetTimeoutSeconds>30</noInternetTimeoutSeconds>
+	
+	
+	<lights>
+		<ipAddress>192.168.1.56</ipAddress>
+		<port>5000</port>
+		
+		<segmentLength>32</segmentLength>
+		
+		<attractDelaySeconds>3</attractDelaySeconds>
+		
+		<minimumTailLength>2</minimumTailLength>
+		<tailLengthSpeedInterval>30</tailLengthSpeedInterval>
+		<tailLengthSpeedInterval>100</tailLengthSpeedInterval>
+		<tailLengthSpeedInterval>300</tailLengthSpeedInterval>
+		<tailLengthSpeedInterval>1000</tailLengthSpeedInterval>
+	</lights>
+	
+	<api>
+		<apiHost>http://www.rotosandbox.com/speed/</apiHost>
+		<apiUsername>ROTO</apiUsername>
+		<apiKey>2EA729C74E4D36B8</apiKey>
+		
+		<racerImagePath>http://www.rotosandbox.com/speed/lr/assets/racerImages/</racerImagePath>
+	</api>
+	
+	
+	
+</config>
