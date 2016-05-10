@@ -662,6 +662,11 @@ class Communicationsrace
 							}
 							
 							// add timeout to response
+							$timeoutSeconds = floatval($row['timeout']);
+							if ($timeoutSeconds <= 0)
+							{
+								$timeoutSeconds = 85;
+							}
 							$response['timeout_seconds'] = floatval($row['timeout']);
 							
 							///////////////////////////////////////////////////////
