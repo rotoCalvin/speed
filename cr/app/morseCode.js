@@ -138,13 +138,17 @@ function StartGameTimer(phrase) {
 	var jsonData = '{ "application" : "communicationsrace", ' +
 					   '"action" : "startTimer", ' +
 					   '"game_id" : "' + gameId + '", ' + 
-					   '"phrase" : "' + encodeURI(phrase) +'"}';
+					   '"phrase" : "' + btoa(phrase) +'"}'; // base64 encode: btoa(), decode: atob()
 	jQuery.post(hostUri + '?api_username=ROTO&api_key=2EA729C74E4D36B8', JSON.parse(jsonData), function (data, textStatus, jqXHR) {
 		var response = JSON.parse(data);
-		//console.log(response);
+		console.log("started game timer response: ", response);
 		if (response.error == 'NO_ERROR')
 		{
 			console.log('game timer started. new phrase is "' + phrase + '"');
+			console.log('timestamp:', response.timestamp);
+			/*console.log('micro:', response.micro);
+			console.log('millis:', response.millis);
+			console.log('secs:', response.secs);*/
 		}
 	});
 	
