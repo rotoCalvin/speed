@@ -213,6 +213,9 @@ class Communicationsrace
 			
 			$response = array('game_id' => $gameId,
 							  'phrase' => $phrase,
+							  'micro' => $micro,
+							  'millis' => $millis,
+							  'secs' => $secs,
 							  'timestamp' => $timestamp,
 							  'error' => 'NO_ERROR');
 			
@@ -667,7 +670,7 @@ class Communicationsrace
 							{
 								$timeoutSeconds = 85;
 							}
-							$response['timeout_seconds'] = floatval($row['timeout']);
+							$response['timeout_seconds'] = $timeoutSeconds;
 							
 							///////////////////////////////////////////////////////
 							if (isset($response['color']))
